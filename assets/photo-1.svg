@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800" role="img">
+<defs>
+  <filter id="grain" x="0" y="0">
+    <feTurbulence type="fractalNoise" baseFrequency="0.8" numOctaves="3" result="n"/>
+    <feColorMatrix in="n" type="saturate" values="0"/>
+    <feComponentTransfer><feFuncA type="linear" slope="0.06"/></feComponentTransfer>
+  </filter><linearGradient id="g1" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#fdf1ea"/><stop offset="0.55" stop-color="#f6dbd2"/><stop offset="1" stop-color="#e9c2b8"/></linearGradient></defs>
+<rect width="800" height="800" fill="url(#g1)"/>
+
+  <circle cx="400" cy="330" r="180" fill="#f8e3c4" opacity="0.85"/>
+  <g fill="none" stroke="#c98c8c" stroke-width="4" stroke-linecap="round" opacity="0.85">
+    <path d="M400 610C330 555 285 505 285 455c0-38 28-66 63-66 22 0 41 11 52 28 11-17 30-28 52-28 35 0 63 28 63 66 0 50-45 100-115 155z" fill="#e8a9a1" stroke="none"/>
+  </g>
+  <g stroke="#7d9479" stroke-width="3.5" fill="none" opacity="0.7" stroke-linecap="round">
+    <path d="M120 720c60-40 120-160 128-300"/>
+    <path d="M150 640c-30-14-44-40-44-70 30 4 46 26 50 52"/>
+    <path d="M178 560c-28-16-40-42-38-72 30 6 44 28 46 54"/>
+    <path d="M680 720c-60-40-120-160-128-300"/>
+    <path d="M650 640c30-14 44-40 44-70-30 4-46 26-50 52"/>
+    <path d="M622 560c28-16 40-42 38-72-30 6-44 28-46 54"/>
+  </g>
+  <text x="400" y="700" text-anchor="middle" font-family="Georgia, serif" font-size="34" fill="#8a7466" letter-spacing="6">СЧАСТЬЕ</text>
+  <text x="400" y="742" text-anchor="middle" font-family="Georgia, serif" font-size="22" fill="#a8917f" letter-spacing="10">together</text>
+<rect width="800" height="800" filter="url(#grain)" opacity="0.5"/>
+</svg>

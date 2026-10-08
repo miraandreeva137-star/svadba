@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800" role="img">
+<defs>
+  <filter id="grain" x="0" y="0">
+    <feTurbulence type="fractalNoise" baseFrequency="0.8" numOctaves="3" result="n"/>
+    <feColorMatrix in="n" type="saturate" values="0"/>
+    <feComponentTransfer><feFuncA type="linear" slope="0.06"/></feComponentTransfer>
+  </filter><linearGradient id="g5" x1="0" y1="1" x2="1" y2="0">
+    <stop offset="0" stop-color="#f8ece4"/><stop offset="1" stop-color="#eadfd6"/></linearGradient></defs>
+<rect width="800" height="800" fill="url(#g5)"/>
+
+  <circle cx="400" cy="390" r="230" fill="#fff" opacity="0.32"/>
+  <g fill="none" stroke="#b08a52" stroke-width="8" stroke-linejoin="round" stroke-linecap="round">
+    <path d="M320 250h100l-14 110a36 36 0 0 1-72 0z"/>
+    <path d="M370 396v130M330 540h80"/>
+    <path d="M470 290h100l-14 110a36 36 0 0 1-72 0z" stroke="#c9a227"/>
+    <path d="M520 436v130M480 580h80"/>
+  </g>
+  <g fill="#f4e2b3" opacity="0.85">
+    <circle cx="640" cy="270" r="7"/><circle cx="190" cy="330" r="6"/>
+    <circle cx="600" cy="480" r="5"/><circle cx="230" cy="520" r="6"/>
+  </g>
+  <text x="400" y="700" text-anchor="middle" font-family="Georgia, serif" font-size="30" fill="#8a7466" letter-spacing="8">ПРАЗДНИК</text>
+<rect width="800" height="800" filter="url(#grain)" opacity="0.5"/>
+</svg>
